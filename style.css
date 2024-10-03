@@ -1,0 +1,61 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.mobile {
+  width: 375px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 111px;
+  height: 74px;
+}
+
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20px;
+  height: 14px;
+  padding: 10px;
+  padding-right: 50px;
+}
+
+.hamburger-menu span {
+  height: 2px;
+  background-color: black;
+}
+
+.main-content {
+  text-align: center;
+  width: 300px;
+  height: 366px;
+}
+
+.text-section h1 {
+  text-align: left;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  color: #1a2236;
+}
+
+.text-section p {
+  color: #1a2236;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: left;
+}
+
+button {
+  width: 288px;
+  height: 50px;
+  background-color: #1a2236;
+  color: white;
+  font-size: 16px;
+  border: none;
+}
