@@ -1,9 +1,10 @@
 body {
   font-family: 'Poppins', sans-serif;
-}
-
-.mobile {
-  width: 375px;
+  max-width: 375px;
+  height: 4835px;
+  margin: 0;
+  padding: 0;
+  display: block;
 }
 
 header {
@@ -22,40 +23,228 @@ header {
   justify-content: space-between;
   width: 20px;
   height: 14px;
-  padding: 10px;
-  padding-right: 50px;
+  margin: 15px;
 }
 
 .hamburger-menu span {
   height: 2px;
-  background-color: black;
+  background-color: #1a2236;
 }
 
 .main-content {
-  text-align: center;
-  width: 300px;
-  height: 366px;
-}
-
-.text-section h1 {
-  text-align: left;
-  font-family: 'Playfair Display', serif;
-  font-size: 50px;
-  color: #1a2236;
-}
-
-.text-section p {
-  color: #1a2236;
-  font-size: 14px;
-  line-height: 21px;
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  width: 288px;
+  height: 336px;
+  margin: 30px auto;
 }
 
 button {
-  width: 288px;
+  width: 300px;
   height: 50px;
   background-color: #1a2236;
   color: white;
   font-size: 16px;
   border: none;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+  color: #1a2236;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+p {
+  display: flex;
+  line-height: 21px;
+  font-size: 14px;
+  color: #1a2236;
+  margin-bottom: 20px;
+}
+
+.mid-img img {
+  width: 375px;
+  height: 160px;
+  display: block;
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 100%;
+  width: 375px;
+  height: 2134px;
+  padding-top: 10px;
+}
+
+.project-item {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 350px;
+  margin: 0;
+  padding-top: 15px;
+}
+
+.project-image {
+  width: 375px;
+  height: 186px;
+  border: 0.33px;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  width: 355px;
+  height: 156px;
+  background-color: #1a2236;
+  padding: 12px 10px;
+}
+
+.project-info h3 {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.project-tags ul {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 15px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.project-tags ul li {
+  width: 74px;
+  height: 20px;
+  background-color: #98DEDE;
+  color: #1a2236;
+  font-size: 10.33px;
+  padding: 5px 5px;
+}
+
+.project-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a2236;
+  border-style: solid;
+  border-color: white;
+  width: 178px;
+  height: 44px;
+}
+
+.project-button img {
+  align-items: center;
+  padding: 10px;
+}
+
+.about-myself {
+  display: grid;
+  grid-template-columns: 100%;
+  width: 320px;
+  height: 1171px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.about-myself button {
+  width: 320px;
+  height: 50px;
+  background-color: #1a2236;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-myself button img {
+  margin-left: 10px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 15px;
+  padding-top: 20px;
+}
+
+.about-item {
+  display: flex;
+  flex-direction: column;
+  height: 290px;
+  position: relative;
+  background-color: #1C528A;
+}
+
+.about-item h3 {
+  text-align: left;
+  width: 178px;
+  font-size: 20px;
+  color: white;
+  padding-top: 30px;
+  margin: 15px auto;
+}
+
+.about-item ul {
+  width: 178px;
+  height: 135px;
+  color: white;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.about-item ul li {
+  font-size: 18px;
+  margin-bottom: 1px;
+  padding: 1px;
+}
+
+.about-bg-img {
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  width: 102px;
+  height: 102px;
+}
+
+.about-item2 {
+  display: flex;
+  flex-direction: column;
+  height: 290px;
+  position: relative;
+  background-color: #E2505C;
+}
+
+.about-item2 h3 {
+  text-align: left;
+  width: 178px;
+  font-size: 20px;
+  color: white;
+  padding-top: 30px;
+  margin: 15px auto;
+}
+
+.about-item3 {
+  display: flex;
+  flex-direction: column;
+  height: 290px;
+  position: relative;
+  background-color: #FEBF52;
+}
+
+.about-item3 h3 {
+  text-align: left;
+  width: 178px;
+  font-size: 20px;
+  color: white;
+  padding-top: 30px;
+  margin: 15px auto;
 }
