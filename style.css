@@ -121,7 +121,7 @@ p {
 .project-tags ul li {
   width: 74px;
   height: 20px;
-  background-color: #98DEDE;
+  background-color: #98dede;
   color: #1a2236;
   font-size: 10.33px;
   padding: 5px 5px;
@@ -179,7 +179,7 @@ p {
   flex-direction: column;
   height: 290px;
   position: relative;
-  background-color: #1C528A;
+  background-color: #1c528a;
 }
 
 .about-item h3 {
@@ -209,7 +209,7 @@ p {
 
 .about-bg-img {
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   right: 0;
   width: 102px;
   height: 102px;
@@ -220,7 +220,7 @@ p {
   flex-direction: column;
   height: 290px;
   position: relative;
-  background-color: #E2505C;
+  background-color: #e2505c;
 }
 
 .about-item2 h3 {
@@ -237,7 +237,7 @@ p {
   flex-direction: column;
   height: 290px;
   position: relative;
-  background-color: #FEBF52;
+  background-color: #febf52;
 }
 
 .about-item3 h3 {
