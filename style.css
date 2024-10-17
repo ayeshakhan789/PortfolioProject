@@ -257,55 +257,58 @@ p {
 .contact-section {
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   width: 375px;
   height: 800px;
   margin-top: 80px;
-  background-color: #F9F9FA; 
+  background-color: #f9f9fa;
 }
-.contact-section, .logo img{
-  display: block;
 
+.contact-section,
+.logo img {
+  display: block;
 }
+
 .contact-form {
   display: flex;
   flex-direction: column;
   gap: 15px;
   width: 289px;
-  padding: 0 15px; 
+  padding: 0 15px;
 }
 
 .contact-form input,
 .contact-form textarea {
-  width: 320px; 
+  width: 320px;
   height: 52px;
   padding: 10px;
-  border: 1px solid #DFDFE0;
+  border: 1px solid #dfdfe0;
   border-radius: 4px;
   font-size: 14px;
-  
 }
-.contact-form label{
-  color: #7D7C84;
+
+.contact-form label {
+  color: #7d7c84;
   font: 10px;
 }
+
 .contact-form textarea {
   height: 112px;
   resize: none;
 }
 
 .contact-section p {
-  width: 320px; 
+  width: 320px;
   height: 63px;
   padding: 0 20px;
-
 }
-.contact-section button{
+
+.contact-section button {
   margin-left: 20px;
 }
 
 .contact-section h1 {
-  padding:5px 20px;
+  padding: 5px 20px;
 }
 
 footer {
@@ -322,14 +325,13 @@ footer {
   width: 286px;
   height: 73px;
   padding-left: 35px;
-
 }
 
 .resume-link {
   width: 164px;
   height: 24px;
   font-size: 16px;
-  color: #92DCDC;
+  color: #92dcdc;
   margin-bottom: 30px;
   padding-top: 20px;
   text-decoration: none;
@@ -337,7 +339,7 @@ footer {
 
 .resume-link img {
   width: 22px;
-  height:22px;
+  height: 22px;
   margin-left: 10px;
 }
 
@@ -350,4 +352,3 @@ footer {
   width: 24px;
   height: 24px;
 }
-
