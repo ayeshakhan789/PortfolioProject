@@ -168,6 +168,17 @@ p {
   justify-content: center;
 }
 
+.contact-section,
+.logo img {
+  display: block;
+}
+
+.resume-link img {
+  width: 22px;
+  height: 22px;
+  margin-left: 10px;
+}
+
 .about-myself button img {
   margin-left: 10px;
 }
@@ -264,11 +275,6 @@ p {
   background-color: #f9f9fa;
 }
 
-.contact-section,
-.logo img {
-  display: block;
-}
-
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -335,12 +341,6 @@ footer {
   margin-bottom: 30px;
   padding-top: 20px;
   text-decoration: none;
-}
-
-.resume-link img {
-  width: 22px;
-  height: 22px;
-  margin-left: 10px;
 }
 
 .social-icons {
